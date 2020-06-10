@@ -1,0 +1,67 @@
+python training
+
+pip is package installer
+IDLE is development environment
+
+
+
+once open cmd
+
+Microsoft Windows [Version 10.0.18362.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Sai Ganesh>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2 + 3
+5
+>>> print("hello world")
+hello world
+>>> quit()
+
+C:\Users\Sai Ganesh>
+
+
+
+IDLE - Integrated Development and Learning environment
+
+
+print("This program calculates the average of two numbers.")
+ print("The numbers are 4 and 8") // a simple space like in the start of this line will result in error
+
+the above 2 lines correct version:
+
+{Preffered}
+print("This program calculates the average of two numbers.")
+print("The numbers are 4 and 8")
+
+Alternate
+print("This program calculates the average of two numbers."); print("The numbers are 4 and 8")
+
+in input ensure you have the current type such as string, float etc
+
+
+>>> number1 = input("Please enter the first number: ")
+Please enter the first number: 4
+>>> number1
+'4'
+>>> number2 = input("Please enter the second number: ")
+Please enter the second number: 8
+>>> number1 + number2
+'48'
+>>> #all are in text formate
+>>> type(number1)
+<class 'str'>
+>>> first_name = 'Ivan'
+>>> first_name = 'Shankar'
+>>> last_name = 'Saiganesh'
+>>> print("YOur email address is", first_name + "." + last_name + "@gmail.com")
+YOur email address is Shankar.Saiganesh@gmail.com
+>>> float(number1) + float(number2)
+12.0
+
+
+tip : round(number1, 4) for rounding to 4 decimal places
+
+e.g. print("the number of miles is ", round(number1, 4))
+

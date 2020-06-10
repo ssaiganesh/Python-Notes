@@ -1,0 +1,57 @@
+Python Section 2
+
+>>> myString = "Some Text"
+>>> type(myString)
+<class 'str'>
+>>> myString = "33"
+>>> type(myString)
+<class 'str'>
+>>> #invoice number or zip code can use string even if it is number
+
+>>> myString = 'She said "meet me at 5"'
+>>> myString
+'She said "meet me at 5"'
+>>> myString[0]
+'S'
+>>> myString[-1]
+'"'
+>>> myString[-2]
+'5'
+>>> len(myString)
+23
+
+>>> myString = 'She'
+>>> len(myString)
+3
+
+>>> myString[len(myString)-1]
+'e'
+>>> myString = "PT10000000984"
+>>> myString[0:2]
+'PT'
+>>> myString = "100000984PT"
+
+>>> myString[-2:-1]
+'P'
+>>> myString[-2:]
+'PT'
+>>> myString[-5]
+'9'
+>>> myString[-5:]
+'984PT'
+>>> myString[:3]
+'100'
+>>> "Hello" + " " + "World"
+'Hello World'
+
+>>> "Hello" + 1234
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    "Hello" + 1234
+TypeError: can only concatenate str (not "int") to str
+
+>>> "user" + str()
+'user'
+>>> "user" + str(22)
+'user22'
+>>> 
